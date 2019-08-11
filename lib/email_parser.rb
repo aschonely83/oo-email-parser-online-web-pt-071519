@@ -10,7 +10,7 @@ class EmailAddressParser
   end  
   
   def parse
-    csv_emails.split.collect 
+    csv_emails.split.collect {|email_address| }
   end  
   
   
